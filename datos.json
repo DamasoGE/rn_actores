@@ -1,0 +1,184 @@
+{
+    "actors": [
+        {
+            "id":"1",
+            "name": "Tom Hanks",
+            "birthdate": "1956-07-09",
+            "active": true,
+            "imageUrl": "https://es.web.img3.acsta.net/c_310_420/pictures/16/04/26/10/00/472541.jpg",
+            "bio": "Es fanático de los trenes y tiene su propia colección de modelos a escala.",
+            "movies": ["Forrest Gump", "Toy Story"]
+        },
+        {
+            "id":"2",
+            "name": "Emma Watson",
+            "birthdate": "1990-04-15",
+            "active": true,
+            "imageUrl": "https://pics.filmaffinity.com/079682135770466-nm_200.jpg",
+            "bio": "Graduada en Literatura Inglesa por la Universidad de Brown, además de actriz.",
+            "movies": ["Harry Potter y la piedra filosofal", "Harry Potter y la cámara secreta"]
+        },
+        {
+            "id":"3",
+            "name": "Robin Williams",
+            "birthdate": "1951-07-21",
+            "active": false,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Robin_Williams_2011a_%282%29.jpg",
+            "bio": "Improvisaba la mayoría de sus escenas cómicas y a menudo inventaba líneas sobre la marcha.",
+            "movies": ["Aladdin", "Jumanji"]
+        },
+        {
+            "id":"4",
+            "name": "Julie Andrews",
+            "birthdate": "1935-10-01",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Julie_Andrews_Park_Hyatt%2C_Sydney%2C_Australia_2013.jpg",
+            "bio": "Comenzó su carrera como cantante de ópera antes de ser famosa en el cine.",
+            "movies": ["Mary Poppins", "Sonrisas y lágrimas"]
+        },
+        {
+            "id":"5",
+            "name": "Chris Pratt",
+            "birthdate": "1979-06-21",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Chris_Pratt_2018.jpg/960px-Chris_Pratt_2018.jpg",
+            "bio": "Antes de ser famoso, trabajaba como camarero y vivía en una caravana.",
+            "movies": ["Guardianes de la Galaxia", "Jurassic World"]
+        },
+        {
+            "id":"6",
+            "name": "Dwayne Johnson",
+            "birthdate": "1972-05-02",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg/250px-Dwayne_%22The_Rock%22_Johnson_Visits_the_Pentagon_%2841%29_%28cropped%29.jpg",
+            "bio": "Fue luchador profesional antes de convertirse en actor y es descendiente de luchadores samoanos.",
+            "movies": ["Jumanji: Bienvenidos a la jungla", "Moana"]
+        },
+        {
+            "id":"7",
+            "name": "Anne Hathaway",
+            "birthdate": "1982-11-12",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Anne_Hathaway_at_The_Apprentice_in_NYC_03_%28cropped2%29.jpg",
+            "bio": "Habla francés fluidamente y estudió literatura francesa antes de dedicarse al cine.",
+            "movies": ["Alicia en el país de las maravillas", "Princesa por sorpresa"]
+        },
+        {
+            "id":"8",
+            "name": "Hugh Jackman",
+            "birthdate": "1968-10-12",
+            "active": true,
+            "imageUrl": "https://cdn.britannica.com/47/201647-050-C547C128/Hugh-Jackman-2013.jpg",
+            "bio": "Entrenó durante meses para interpretar a Wolverine y es conocido por su disciplina física.",
+            "movies": ["El gran showman", "X-Men: Primera generación"]
+        },
+        {
+            "id":"9",
+            "name": "Tom Holland",
+            "birthdate": "1996-06-01",
+            "active": true,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyqRI_drSQqGns4seFgKWio3osTPQkA1R27w&s",
+            "bio": "Entrenó en gimnasia acrobática desde niño, lo que le permitió hacer muchas de sus propias acrobacias.",
+            "movies": ["Spider-Man: Homecoming", "Uncharted"]
+        },
+        {
+            "id":"10",
+            "name": "Zendaya",
+            "birthdate": "1996-09-01",
+            "active": true,
+            "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/19/12/26/23/19/0993801.jpg",
+            "bio": "Comenzó su carrera en Disney Channel y también es productora de sus propios proyectos.",
+            "movies": ["Spider-Man: Lejos de casa", "El gran showman"]
+        },
+        {
+            "id":"11",
+            "name": "Chris Hemsworth",
+            "birthdate": "1983-08-11",
+            "active": true,
+            "imageUrl": "https://cdn.britannica.com/92/215392-050-96A4BC1D/Australian-actor-Chris-Hemsworth-2019.jpg",
+            "bio": "Tiene licencia de piloto privado y disfruta de la aviación en su tiempo libre.",
+            "movies": ["Thor", "Blanco perfecto"]
+        },
+        {
+            "id":"12",
+            "name": "Eddie Murphy",
+            "birthdate": "1961-04-03",
+            "active": true,
+            "imageUrl": "https://cdn.britannica.com/47/206347-050-18285180/Eddie-Murphy-2007.jpg",
+            "bio": "Antes de actuar, trabajaba como comediante de stand-up y fue estrella de 'Saturday Night Live'.",
+            "movies": ["Shrek", "Un detective suelto en Hollywood"]
+        },
+        {
+            "id":"13",
+            "name": "Will Smith",
+            "birthdate": "1968-09-25",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/TechCrunch_Disrupt_2019_%2848834434641%29_%28cropped%29.jpg",
+            "bio": "Comenzó su carrera como rapero con el nombre 'The Fresh Prince'.",
+            "movies": ["En busca de la felicidad", "Aladdin"]
+        },
+        {
+            "id":"14",
+            "name": "Meryl Streep",
+            "birthdate": "1949-06-22",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Meryl_Streep_December_2018.jpg/250px-Meryl_Streep_December_2018.jpg",
+            "bio": "Puede imitar casi cualquier acento y es conocida por su dedicación extrema a los personajes.",
+            "movies": ["Mamma Mia!", "El diablo viste de Prada"]
+        },
+        {
+            "id":"15",
+            "name": "Robin Wright",
+            "birthdate": "1966-04-08",
+            "active": true,
+            "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTU0NTc4MzEyOV5BMl5BanBnXkFtZTcwODY0ODkzMQ@@._V1_FMjpg_UX1000_.jpg",
+            "bio": "Además de actriz, es directora y ha estado muy involucrada en causas humanitarias.",
+            "movies": ["Forrest Gump", "La princesa prometida"]
+        },
+        {
+            "id":"16",
+            "name": "Daniel Radcliffe",
+            "birthdate": "1989-07-23",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/DanielRadcliffe.jpg",
+            "bio": "Empezó a actuar a los 10 años y se convirtió en un icono cultural con Harry Potter.",
+            "movies": ["Harry Potter y el prisionero de Azkaban", "Harry Potter y el cáliz de fuego"]
+        },
+        {
+            "id":"17",
+            "name": "Rupert Grint",
+            "birthdate": "1988-08-24",
+            "active": true,
+            "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/RupertGrint2018.jpg",
+            "bio": "Se aficionó a la actuación tras conseguir el papel de Ron Weasley casi por casualidad.",
+            "movies": ["Harry Potter y la piedra filosofal", "Harry Potter y la cámara secreta"]
+        },
+        {
+            "id":"18",
+            "name": "Emma Stone",
+            "birthdate": "1988-11-06",
+            "active": true,
+            "imageUrl": "https://es.web.img3.acsta.net/pictures/15/05/15/16/30/134942.jpg",
+            "bio": "Ganó un Oscar por 'La La Land' y es reconocida por su versatilidad y sentido del humor.",
+            "movies": ["La La Land", "Cruella"]
+        },
+        {
+            "id":"19",
+            "name": "Johnny Depp",
+            "birthdate": "1963-06-09",
+            "active": true,
+            "imageUrl": "https://m.media-amazon.com/images/M/MV5BZjA3NzZiZDktZjc2My00MzY2LThhOWMtZGFjYzg4ZDI2ZWVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+            "bio": "Conocido por elegir personajes excéntricos y trabajar muy de cerca con directores creativos.",
+            "movies": ["Piratas del Caribe: La maldición de la Perla Negra", "Charlie y la fábrica de chocolate"]
+        },
+        {
+            "id":"20",
+            "name": "Anne-Marie Duff",
+            "birthdate": "1970-10-08",
+            "active": true,
+            "imageUrl": "https://i.guim.co.uk/img/media/cd3fc80b5951b7bffc238ad7ce1772ea8d505ba4/0_818_5238_3142/master/5238.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=2a517c08387a0275bb23a51a87cb200f",
+            "bio": "Es actriz de teatro y cine británica, destacando por papeles complejos incluso en cine familiar.",
+            "movies": ["Suffragette", "El caso de Thomas Crown"]
+        }
+    ]
+}
