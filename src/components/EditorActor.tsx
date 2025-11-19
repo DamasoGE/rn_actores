@@ -5,6 +5,7 @@ import VisorPelicula from "./VisorPelicula";
 import { Image } from "expo-image";
 import dayjs from "dayjs";
 import BouncyCheckbox from "react-native-bouncy-checkbox"
+import DialogoNuevaPelicula from "./DialogoNuevaPelicula";
 
 type Props = {
   actorSeleccionado?: ActorCompleto;
@@ -34,6 +35,8 @@ export default function EditorActor({
     actorSeleccionado?.peliculas ?? []
   );
 
+  const [dialogoVisible, setDialogoVisible] = useState<boolean>(false)
+
   function getEtiquetaPelicula(pelicula: Pelicula) {
     return (
       <VisorPelicula
@@ -44,9 +47,19 @@ export default function EditorActor({
     );
   }
 
-  function accionBorrarPelicula() {}
+  function accionNuevaPelicula() {
+    setDialogoVisible(true)
+  }
 
-  function accionNuevaPelicula(pelicula: Pelicula) {}
+  function nuevaPelicula(pelicula: Pelicula){
+    const nuevaListaPeliculas = [...peliculas, pelicula]
+    setPeliculas(nuevaListaPeliculas);
+  }
+
+  function accionBorrarPelicula(pelicula: Pelicula){
+    const nuevaListaPeliculas = peliculas.filter(p => p!==pelicula)
+    setPeliculas(nuevaListaPeliculas)
+  }
 
   return (
     <View style={styles.contenedor}>
@@ -117,7 +130,7 @@ export default function EditorActor({
             {
                 peliculas.map((pelicula) => getEtiquetaPelicula(pelicula))
             }
-            <Pressable style={styles.botonNuevaPelicula} onPress={()=>accionNuevaPelicula}>
+            <Pressable style={styles.botonNuevaPelicula} onPress={accionNuevaPelicula}>
                 <Text style={styles.textoNuevaPelicula}>Nueva Película</Text>
             </Pressable>
         </View>
@@ -155,6 +168,14 @@ export default function EditorActor({
         <Pressable style={styles.boton} onPress={()=> setModalVisible(false)}>
             <Text style={styles.textoBoton}>Salir</Text>
         </Pressable>
+      </View>
+
+      <View style={styles.contenedor}>
+        <DialogoNuevaPelicula
+          dialogoVisible={dialogoVisible}
+          setDialogoVisible={setDialogoVisible}
+          nuevaPelicula={nuevaPelicula}
+        />
       </View>
     </View>
   );
